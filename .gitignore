@@ -1,0 +1,6 @@
+#discard the application log file by name
+appliation.log
+
+
+#discard all .log files
+*.log
