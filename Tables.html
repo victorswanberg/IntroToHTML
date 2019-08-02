@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+</head>
+<!-- The objective is to create an HTML table <table>-->
+
+<body>
+<!-- Note most styling is done with CSS now we do not use inline html styling anymore this is just to show you a border. -->
+<table border="1">
+	<!-- <tr> element is a row -->
+	<tr> 
+	<!-- <td> element is what is inside the table. Think of td being each cell. -->
+		<td>Red</td>
+		<td>Orange</td>
+	</tr>
+	<tr>
+		<td>Green</td>
+		<td>Yellow</td>
+	</tr>	
+</table>
+<br>
+<!-- Lets create a table about people. Name and Age -->
+<!-- <th> is for table header. 
+Name 	Age
+============
+Vic		30
+Aaron	27
+ -->
+<table border="1">
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+	</tr>
+	<tr> 
+		<td>Vic</td>
+		<td>30</td>
+	</tr>
+	<tr>
+		<td>Aaron</td>
+		<td>27</td>
+	</tr>	
+</table>
+
+<!-- HTML is all about mark up that is meaningful so lets create another table with a little more meaning.
+The last table has table rows but there is no difference between the table rows with the header and the table rows with the data. 
+For example someone with a screen reader may see the information differently so we want to make sure that all the elements we are calling have meaning. 
+
+The next two elements we are going to use is:
+<thead>
+<tbody>
+-->
+<br>
+
+<table border="1">
+	<tr>
+		<thead>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Gender</th>
+		</thead>
+	</tr>
+	<tr>
+		<tbody> 
+			<td>Vic</td>
+			<td>30</td>
+			<td>Male</td>
+		</tbody>
+	</tr>
+	<tr>
+		<tbody>
+			<td>Aaron</td>
+			<td>27</td>
+			<td>Male</td>
+		</tbody>
+	</tr>	
+</table>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
