@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+<!-- Objectives
+Use the form tag <form></form>
+Use the input tag <input>
+Use the <label></label> tag
+Write simple validations -->
+<!-- The form tag 
+Two types of requests are
+"get" and "post"
+
+
+
+
+
+-->
+<h1>Sign In</h1>
+<form>
+	<input type="text" name="Input text">
+	<input type="color" name="Color selection">
+	<input type="radio" name="Radio button">
+	<input type="password" name="enter a password">
+</form>
+
+<br><br>
+
+<h1>Login</h1>
+<form>
+	<input type="text" name="Input text" placeholder="username">	
+	<input type="password" name="enter your password" placeholder="enter a password">
+	<!-- For the two types of buttons which of the two is more accesibile?-->
+	<button>Submit</button>
+	<input type="Submit">
+	<!-- Remember there is two form types.
+	action -where the form sends data to?
+	method - what http method (get/post) -->
+</form>
+<!-- Lets add some label tags for accesibility. -->
+<h1>Login with label tags</h1>
+<form>
+	<label>
+		Username:
+		<input type="text" name="Input text" placeholder="username">	
+	</label>
+	<label>
+		Password:	
+		<input type="password" name="enter your password" placeholder="enter a password">
+	</label>
+	<label>
+		Submit button:
+		<input type="Submit">
+	</label>
+</form>
+<!-- Using the for and ID attributes for labels for a secondary syntax -->
+<h1>Login</h1>
+<form>
+	<label for="Email">Email:</label>
+	<input id="Email" type="Email" name="Input text" placeholder="Email" required>
+	<label for="password">Password:</label>	
+	<input id="password" type="password" name="enter your password" placeholder="enter a password" required>
+	<label for="Submit">Submit</label>
+	<input id="Submit" for="Submit" type="Submit">
+</form>
+<!--Form validation
+Something is not empty but required. Use the presence validation "required"
+The second validation is about data type. 
+An example is something @ something.com
+-->
+
+<!-- Next is the three additional ways to get user input -->
+
+</body>
+</html>
